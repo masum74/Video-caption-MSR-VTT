@@ -10,3 +10,5 @@
 ### Description
 
 *  This is a vision + language based model for video captioning. It is trained using 20,000 video clips as training data and 5,000 video clips as validation data from the MSR-VTT (MSRVideo to Text) dataset. From each video clips 5 scattered frames were extracted and fed into a video encoder (ResNet152) to generate an encoded output. This output is then passeda to a text decoder (sequence of LSTM models) to generate meaningful caption for the video.
+
+* For more information please check [this](https://drive.google.com/file/d/19eeDDWaArdA5LPZsryG94SdK6H1KDLlE/view?usp=sharing) report.
